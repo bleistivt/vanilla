@@ -641,7 +641,7 @@ jQuery(document).ready(function($) {
                     $target.prependTrigger(item.Data);
                     break;
                 case 'Redirect':
-                    window.location.replace(item.Data);
+                    window.location.assign(item.Data);
                     break;
                 case 'Refresh':
                     window.location.reload();
